@@ -52,3 +52,47 @@
     button:hover {
       background: #ff4b6e;
     }
+
+    footer {
+      margin-top: 50px;
+      padding: 15px;
+      background: #ff4b6e;
+      color: white;
+    }
+
+    /* Floating hearts animation */
+    @keyframes floatUp {
+      from {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      to {
+        transform: translateY(-100vh);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🍦 Vanilla Spice
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <h1>Welcome to our world 💖</h1>
+  <p>A sweet & spicy responsive website made with love 💋</p>
+  <button>Click Me</button>
+
+  <footer>
+    Made with ❤️ by Us
+  </footer>
+
+  <!-- Script linked at the very bottom -->
+  <script src="script.js"></script>
+</body>
+</html>
